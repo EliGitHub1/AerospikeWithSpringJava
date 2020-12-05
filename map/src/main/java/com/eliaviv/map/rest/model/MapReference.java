@@ -10,9 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class MapReference{
-  private String mapType;
   @Id
   private UUID uuid;
 }
-
 
