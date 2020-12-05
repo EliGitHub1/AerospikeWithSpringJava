@@ -28,7 +28,7 @@ Run:
 Test:
 =========
 
-1. Import collection attached to Postman
+1. Import collection attached to Postman  JavaMapImplementation/MapAerospike.postman_collection.json
 2. Replace localhost value if need and run api/method/healthcheck
 3. First create a map and keep map reference uuid. (Map reference uuid is the map "address")
 4. use Put: 
