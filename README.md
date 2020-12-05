@@ -49,7 +49,7 @@ request body:
 						},
 						{
 							"key":"5",
-							"value":4
+							"value":65
 						},
 						{
 							"key":"4564654",
@@ -67,6 +67,7 @@ response body:
 
 2. put:
 same uuid is used as returned from CTOR
+				
 				{
 					"key":"MyKey",
 					"value":"myValue",
