@@ -9,7 +9,7 @@ eliaviv2@gmail.com
 
 Goal:
 =========
-Java Map Implementation using aerospike as data source
+Java Map Implementation using Aerospike as data source
 
 Install:
 =========
@@ -23,7 +23,7 @@ Run:
 
 1. java -v , to verify java is ready 
 2. Aerospike local server, verify by navigating Aerospike Monitoring Console 
-3. open MAP folder and run MapApplication.java
+3. Run JavaMapImplementation/map/src/main/java/com/eliaviv/map/MapApplication.java
 
 Test:
 =========
