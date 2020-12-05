@@ -34,34 +34,34 @@ Test:
 4. use Put: 
   4.1 Paste map reference uuid to "mapRefuuid"
   4.2 send request
-  
+
 Examples:
 =========
 1. createMap
-CTOR which support initiate with existing key and value:
+			CTOR which support initiate with existing key and value:
 
-request body:
-{
-	"pairList":[
-		{
-			"key":"3",
-			"value":4
-		}
-	]
-}
+			request body:
+			{
+				"pairList":[
+					{
+						"key":"3",
+						"value":4
+					}
+				]
+			}
 
-response body:
-{
-    "uuid": "3e16142d-3157-4d42-a977-17506553416a"
-}
+			response body:
+			{
+			    "uuid": "3e16142d-3157-4d42-a977-17506553416a"
+			}
 
 
 2. put:
-{
-	"key":"MyKey",
-	"value":"myValue",
-	"mapRefuuid":"3e16142d-3157-4d42-a977-17506553416a"   ---->same uuid as returned from CTOR
-}
+			{
+				"key":"MyKey",
+				"value":"myValue",
+				"mapRefuuid":"3e16142d-3157-4d42-a977-17506553416a"   ---->same uuid as returned from CTOR
+			}
 
 
 
