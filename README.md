@@ -60,7 +60,7 @@ response body:
 {
 	"key":"MyKey",
 	"value":"myValue",
-	"mapRefuuid":"3e16142d-3157-4d42-a977-17506553416a"   ---->sane uuid as returned from CTOR
+	"mapRefuuid":"3e16142d-3157-4d42-a977-17506553416a"   ---->same uuid as returned from CTOR
 }
 
 
