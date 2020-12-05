@@ -50,7 +50,7 @@ public class MapControllerImpl<K, V, T> implements MapController<K, V, T> {
 
 
   private void isTargetMapValid(Pair<K, V> pair) throws IllegalArgumentException {
-    if (mapService.findMapById(pair.getMapRefuuid())) {
+    if (!mapService.findMapById(pair.getMapRefuuid())) {
       throw new IllegalArgumentException();
     }
   }
