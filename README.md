@@ -78,5 +78,5 @@ same uuid is used as returned from CTOR
 
 Notes:
 =========
-1. Only put and CTOR have been implemented
-2. This version has no test at the moment 
+2. Only put and CTOR have been implemented
+3. This version has no test at the moment 
