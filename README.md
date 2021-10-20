@@ -3,8 +3,7 @@
 Version 0.1
 
 Author:
-Eli Aviv
-eliaviv2@gmail.com
+Eli A
 
 
 Goal:
@@ -79,4 +78,4 @@ same uuid is used as returned from CTOR
 Notes:
 =========
 2. Only put and CTOR have been implemented
-3. This version has no test at the moment 
+3. This version has no tests at the moment 
